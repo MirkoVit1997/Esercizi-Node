@@ -11,6 +11,15 @@
   "keywords": [],
   "description": "",
   "dependencies": {
-    "figlet": "^1.7.0"
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "express-async-errors": "^3.1.1",
+    "figlet": "^1.7.0",
+    "joi": "^17.13.3",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/morgan": "^1.9.9"
   }
 }
