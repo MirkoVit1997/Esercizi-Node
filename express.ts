@@ -9,11 +9,11 @@ dotenv.config();
 const app = express();
 const port = process.env.PORT || 3000;
 
-// Middleware
+
 app.use(express.json());
 app.use(morgan('dev'));
 
-// Rotte
+
 app.use('/api/planets', planetsRouter);
 
 app.listen(port, () => {
